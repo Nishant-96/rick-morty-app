@@ -5,7 +5,7 @@ import { Home } from "./pages";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
