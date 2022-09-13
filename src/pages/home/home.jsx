@@ -47,7 +47,7 @@ export function Home() {
 
   return (
     <div className="mt-[60px] flex flex-col p-4">
-      <div className="flex flex-wrap gap-4 py-4 justify-evenly">
+      <div className="flex flex-wrap gap-4 py-4 justify-evenly basis-9/12">
         {charactersDataArr?.length > 0 &&
           charactersDataArr?.map((curr) => (
             <ProfileCard key={curr?.id} character={curr} />
